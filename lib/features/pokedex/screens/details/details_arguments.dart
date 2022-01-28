@@ -1,9 +1,11 @@
+import 'package:pokedex2/common/models/pokemon.dart';
+
 class DetailsArguments {
-  final String name;
+  final Pokemon pokemon;
   DetailsArguments({
-    required this.name,
+    required this.pokemon,
   });
 }
 
 
-//DetailsArguments -> é o que vai ser passado por parametros entre telas
+//DetailsArguments -> é o que vai ser passado por parametros entre telas 

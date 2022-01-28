@@ -31,7 +31,7 @@ class DetailContainer extends StatelessWidget {
         else if (snapshot.connectionState == ConnectionState.done &&
             snapshot.hasData) {
           return DetailPage(
-            name: arguments.name,
+            pokemon: arguments.pokemon,
             list: snapshot.data!,
           );
 

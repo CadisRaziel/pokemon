@@ -25,7 +25,7 @@ class PokedexRoutes extends StatelessWidget {
             },
           );
         }
-        if (settings.name == '/details') {
+        if (settings.name == '/ details') {
           return MaterialPageRoute(
             builder: (context) {
               return DetailContainer(
